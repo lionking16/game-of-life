@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'mvn jetty:run'
+        sh '/home/ubuntu/Downloads/software/apache-maven-3.6.3/mvn jetty:run'
       }
     }
 
